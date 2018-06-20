@@ -74,27 +74,27 @@ class ViewController: UIViewController {
     var questions: [Question] = [
         Question(
             question: "What is Taylor Swift's first album?",
-            answers: ["1989","Taylor Swift", "Taylor Swift", "Fearless"],
+            answers: ["1989","Taylor Swift", "Speak Now", "Fearless"],
             correctAnswer: 1),
         Question(
             question: "What is Taylor Swift's second album?",
-            answers: ["Taylor Swift", "Fearless", "Taylor Swift", "Fearless"],
-            correctAnswer: 1),
+            answers: ["1989", "Red", "Taylor Swift", "Fearless"],
+            correctAnswer: 3),
         Question(
             question: "What is Taylor Swift's third album?",
-            answers: ["Speak Now", "Taylor Swift", "Taylor Swift", "Fearless"],
-            correctAnswer: 0),
+            answers: ["Reputation", "Red", "Fearless", "Speak Now"],
+            correctAnswer: 3),
         Question(
             question: "What is Taylor Swift's fourth album?",
-            answers: ["1989", "Red", "Taylor Swift", "Fearless"],
-            correctAnswer: 1),
+            answers: ["1989", "Taylor Swift", "Red", "Fearless"],
+            correctAnswer: 2),
         Question(
             question: "What is Taylor Swift's fifth album?",
-            answers: ["1989", "Red", "Taylor Swift", "Fearless"],
-            correctAnswer: 0),
+            answers: ["Fearless", "1989", "Reputation", "Red"],
+            correctAnswer: 1),
         Question(
             question: "What is Taylor Swift's sixth album?",
-            answers: ["1989", "Reputation", "Taylor Swift", "Fearless"],
+            answers: ["1989", "Reputation", "Red", "Fearless"],
             correctAnswer: 1)
         //More instances of Question should be inside this array.
         //You need one instance of Question for each question in your quiz.
